@@ -1,0 +1,1 @@
+ls used to list all files and directory in the current projects
