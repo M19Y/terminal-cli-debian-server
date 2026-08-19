@@ -32,8 +32,28 @@ l6: go rith 6 times
 # Keys combine ------------------------------------
 u                     -> undo
 ctrl + r              -> redo
+dd                    -> delete line
+D                     -> delete the rest of the line, to the rigth
+dw                    -> delete a word
+dW                    -> delete a word
+diw                   -> delete in a word (if u want delete the current word the cursor at)
+C                     -> delete the rest of the line, and go to insert mode
+ciw                   -> delete the current word and go to insert mode
+Y | yy                -> copy the rest of the line
 ---------------------------------------------------
 
 # Visual mode ------------------------------------
 v                     -> changes the mode into Visual
+y                     -> copy the selected line
+d                     -> delete the selected line
+---------------------------------------------------
 
+# Tabs -------------------------------------------
+w                     -> jumping to the next right word (considering with special character)
+W                     -> jumping to the next rigth word (ignoring the special character) only jump on space character ("")
+b                     -> same as w but its tabs backwords
+B                     -> same as W but its tabs backwords
+
+
+
+we 
