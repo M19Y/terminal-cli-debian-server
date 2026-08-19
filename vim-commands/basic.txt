@@ -26,7 +26,7 @@ l6: go rith 6 times
 :w		                -> for saving
 :set number           -> displayed a line numbers
 :set relativenumber   -> displayed relative numbers
-:set mouse=a			-> activated the mouse
+:set mouse=a			    -> activated the mouse
 ---------------------------------------------------
 
 # Keys combine ------------------------------------
@@ -34,12 +34,20 @@ u                     -> undo
 ctrl + r              -> redo
 dd                    -> delete line
 D                     -> delete the rest of the line, to the rigth
-dw                    -> delete a word
-dW                    -> delete a word
+dw                    -> delete a word (left to rigth)
+dW                    -> delete a word (left to rigth)
 diw                   -> delete in a word (if u want delete the current word the cursor at)
 C                     -> delete the rest of the line, and go to insert mode
 ciw                   -> delete the current word and go to insert mode
-Y | yy                -> copy the rest of the line
+Y                     -> copy the rest of the line (left to right)
+yy                    -> copy all the line
+yiw                   -> it will copy current word
+di" (,{,ect           -> it means delete insert quotetion marks "...."
+yi"                   -> it means copy insert quetetion marks "...."
+d5w                   -> delete 5 words
+5dd                   -> delete 5 lines
+y5w                   -> copy 5 words
+5yy                   -> copy 5 lines
 ---------------------------------------------------
 
 # Visual mode ------------------------------------
@@ -51,9 +59,19 @@ d                     -> delete the selected line
 # Tabs -------------------------------------------
 w                     -> jumping to the next right word (considering with special character)
 W                     -> jumping to the next rigth word (ignoring the special character) only jump on space character ("")
+e                     -> same as 'w' but the cursor placed at the end of the world
+E                     -> have same behavieor as 'e'
 b                     -> same as w but its tabs backwords
 B                     -> same as W but its tabs backwords
+0                     -> go to the first line
+$                     -> go to the last line
+gg                    -> jump to the first line
+G                     -> jump to the end of the line
+:10                   -> jump to the spesific number of the line
+10G                   -> jump to the spesific number of the line
+--------------------------------------------------
+simple words wahahawkwkwk
+wahahawkwkwk
+print("hello world");
+hello world
 
-
-
-we 
