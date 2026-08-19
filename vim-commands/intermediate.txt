@@ -1,0 +1,11 @@
+=               -> for fixing the indentation
+=G              -> fixing all the indentation from top to the bottom
+:/word          -> find the "word"
+:?word          -> find the "word"
+#               -> find the same word backwards
+*               -> find the same word forwards
+
+  
+when in find mode
+- n for find new word
+- N for find the previous word
