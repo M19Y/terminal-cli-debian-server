@@ -1,0 +1,39 @@
+#Insertion ----------------------------------------------------------------
+i                 -> for insert ("start typing what we want")
+shift + i (I)     -> for insert ("start typing from the first of line")
+a                 -> for insert ("after the cursor")
+shift + a (A)     -> for insert ("start typing from the last of line")
+o                 -> for insert ("start typing from the new line (below)")
+shift + o (O)     -> for insert ("start typing from the new line (above)")
+---------------------------------------------------------------------------
+
+#Navigation -----------------
+h | <- (arrow left) -> go left
+j | -- (arrow down) -> go down
+k | ^^ (arrow up)   -> go up
+l | -> (arrow right)-> go right
+
+we can combine this navigation with numbers:
+h4: go left 4 times
+j3: go down 3 times
+k5: go up 5 times
+l6: go rith 6 times
+-----------------------------
+
+# Commands------------------------------------------
+:q		                -> quite from the vim
+:q!		                -> quite and discard all the changes anyway
+:w		                -> for saving
+:set number           -> displayed a line numbers
+:set relativenumber   -> displayed relative numbers
+:set mouse=a			-> activated the mouse
+---------------------------------------------------
+
+# Keys combine ------------------------------------
+u                     -> undo
+ctrl + r              -> redo
+---------------------------------------------------
+
+# Visual mode ------------------------------------
+v                     -> changes the mode into Visual
+
