@@ -9,3 +9,14 @@
 when in find mode
 - n for find new word
 - N for find the previous word
+--------------------------------------------------------
+
+# Navigate--------------------------------
+press 'a' in the NvimTree will create a file
+:split | terminal       -> create terminal horizontal
+:vsplit | terminal      -> create terminal vertical
+ctrl + w (h,j,k,l)      -> move between terminals windows
+:NvimTreeClose          -> close the NvimTree
+:NvimTreeOpen           -> open the NvimTree
+:resize 10              -> will ajust the terminal
+:vertical resize +5     -> will ajust the vertical terminal
