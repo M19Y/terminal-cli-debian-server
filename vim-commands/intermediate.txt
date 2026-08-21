@@ -4,6 +4,10 @@
 :?word          -> find the "word"
 #               -> find the same word backwards
 *               -> find the same word forwards
+.               -> repeating command that we use previously
+yt*             -> copy until character *
+dt"             -> delte until character "
+zz              -> center the line, even tho theres no line below
 
   
 when in find mode
@@ -20,3 +24,8 @@ ctrl + w (h,j,k,l)      -> move between terminals windows
 :NvimTreeOpen           -> open the NvimTree
 :resize 10              -> will ajust the terminal
 :vertical resize +5     -> will ajust the vertical terminal
+
+# Replace------------------------------------
+R                       -> Replace current words
+V + arrows (j,k,ect) + :s/old/new/g -> replace words by line
+:%s/old/new/gc          -> Replace all words in the current file using confirmation
